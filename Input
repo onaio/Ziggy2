@@ -1,0 +1,47 @@
+<FWNewHH encounter_type="New Household Registration" id="FWNewHH" version="201508190848">
+   <formhub>
+      <uuid>f546735529e94b6290587d47433433b4</uuid>
+   </formhub>
+   <version />
+   <existing_location openmrs_entity="encounter" openmrs_entity_id="location_id" />
+   <location_name />
+   <today openmrs_entity="encounter" openmrs_entity_id="encounter_date">2015-09-18</today>
+   <start openmrs_entity="encounter" openmrs_entity_id="encounter_start">2015-09-18T12:30:43.000+03:00</start>
+   <end openmrs_entity="encounter" openmrs_entity_id="encounter_end">2015-09-18T12:30:43.000+03:00</end>
+   <FWNHREGDATE openmrs_entity="concept" openmrs_entity_id="160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">2015-09-18</FWNHREGDATE>
+   <FWGOBHHID openmrs_entity="person_attribute" openmrs_entity_id="GoB_HHID">1234</FWGOBHHID>
+   <FWJIVHHID openmrs_entity="person_attribute" openmrs_entity_id="JiVitA_HHID">1234</FWJIVHHID>
+   <FWNHHHGPS openmrs_entity="person_address" openmrs_entity_id="geopoint" openmrs_entity_parent="usual_residence">-1.293307 36.791435 0 28.111000061035156</FWNHHHGPS>
+   <FWHOHFNAME openmrs_entity="person" openmrs_entity_id="first_name">hj head</FWHOHFNAME>
+   <FWHOHLNAME openmrs_entity="person" openmrs_entity_id="last_name">.</FWHOHLNAME>
+   <FWHOHBIRTHDATE openmrs_entity="person" openmrs_entity_id="birthdate">1900-01-01</FWHOHBIRTHDATE>
+   <FWHOHGENDER openmrs_entity="person" openmrs_entity_id="gender">1</FWHOHGENDER>
+   <FWNHHMBRNUM openmrs_entity="concept" openmrs_entity_id="5611AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">12</FWNHHMBRNUM>
+   <FWNHHMWRA openmrs_entity="concept" openmrs_entity_id="1901AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">1</FWNHHMWRA>
+   <woman openmrs_entity="person" openmrs_entity_id="New Woman Registration">
+      <GOBHHID openmrs_entity="person_attribute" openmrs_entity_id="GoB_HHID">1234</GOBHHID>
+      <JiVitAHHID openmrs_entity="person_attribute" openmrs_entity_id="JiVitA_HHID">1234</JiVitAHHID>
+      <REGDATE>2015-09-18</REGDATE>
+      <FWWOMFNAME openmrs_entity="person" openmrs_entity_id="first_name">woman name</FWWOMFNAME>
+      <FWWOMLNAME openmrs_entity="person" openmrs_entity_id="last_name">.</FWWOMLNAME>
+      <FWWOMNID openmrs_entity="person_attribute" openmrs_entity_id="NID">1234567890123</FWWOMNID>
+      <FWWOMBID>12345678901234567</FWWOMBID>
+      <FWWOMRETYPEBID openmrs_entity="person_identifier" openmrs_entity_id="Birth Registration ID">12345678901234567</FWWOMRETYPEBID>
+      <FWHUSNAME openmrs_entity="concept" openmrs_entity_id="161135AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">husband</FWHUSNAME>
+      <FWBIRTHDATE openmrs_entity="person" openmrs_entity_id="birthdate">2000-01-02 00:00:00</FWBIRTHDATE>
+      <FWGENDER openmrs_entity="person" openmrs_entity_id="gender">female</FWGENDER>
+      <FWWOMAGE>16</FWWOMAGE>
+      <display_age />
+      <FWNHWOMSTRMEN>0</FWNHWOMSTRMEN>
+      <FWNHWOMHUSLIV openmrs_entity="concept" openmrs_entity_id="162994AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">1</FWNHWOMHUSLIV>
+      <FWNHWOMHUSALV openmrs_entity="concept" openmrs_entity_id="5561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+      <FWNHWOMHUSSTR>0</FWNHWOMHUSSTR>
+      <FWELIGIBLE>1</FWELIGIBLE>
+      <add_women />
+   </woman>
+   <join_names>woman name</join_names>
+   <MWRA>1</MWRA>
+   <meta>
+      <instanceID>uuid:ee1dae53-69e3-4e48-a4ab-fe95252558d5</instanceID>
+   </meta>
+</FWNewHH>
